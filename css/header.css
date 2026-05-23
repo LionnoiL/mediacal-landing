@@ -1,0 +1,90 @@
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+  background-color: #e1eeff;
+}
+
+.header .container {
+  justify-content: space-between;
+
+  padding: 45px 0;
+}
+
+.header__logo {
+  color: #021526;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header__nav {
+  margin-left: auto;
+  margin-right: 156px;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 28px;
+}
+
+.header__nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0d2b46;
+  transition: color 250ms ease;
+}
+
+.header__nav-link.active {
+  color: #0360d9;
+}
+
+.header__nav-link:hover,
+.header__nav-link:focus {
+  color: #0360d9;
+}
+
+.header__auth-block {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header__login-btn {
+  color: #0360d9;
+  border: 1px solid currentColor;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-block: 10px;
+  padding-inline: 34px;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease;
+}
+
+.header__login-btn:hover,
+.header__login-btn:focus {
+  background-color: #042552;
+  color: #ffffff;
+}
+
+.header__signup-btn {
+  background-color: #0360d9;
+  color: #ffffff;
+  border: 1px solid currentColor;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-block: 10px;
+  padding-inline: 34px;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease;
+}
+
+.header__signup-btn:hover,
+.header__signup-btn:focus {
+  background-color: #042552;
+  color: #ffffff;
+}

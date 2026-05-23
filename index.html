@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -13,5 +19,46 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>E-Sheba</title>
   </head>
-  <body></body>
+  <body>
+    <!-- #region Header-->
+    <header id="header" class="header">
+      <div class="container">
+        <a class="header__logo" href="#">E-<span class="accent">sheba</span></a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link active">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Application</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">History</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__auth-block">
+          <button type="button" class="header__login-btn">Log in</button>
+          <button type="button" class="header__signup-btn">Sign up</button>
+        </div>
+      </div>
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region Main-->
+    <main>
+      <section id="hero" class="hero">
+        <div class="container"></div>
+      </section>
+    </main>
+    <!-- #endregion -->
+
+    <!-- #region Footer-->
+    <footer></footer>
+    <!-- #endregion -->
+  </body>
 </html>
