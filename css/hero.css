@@ -20,6 +20,20 @@
   z-index: 10;
 }
 
+.hero__title .accent {
+  position: relative;
+}
+
+.hero__favorite-figure {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  stroke-width: 3px;
+  stroke: #0360d9;
+  fill: none;
+  transform: rotate(-2deg);
+}
+
 .hero__description {
   color: #163048;
   max-width: 419px;
@@ -55,6 +69,12 @@
   margin-right: auto;
 }
 
+.hero__dropdon-icon {
+  stroke: #000;
+  stroke-linecap: round;
+  fill: none;
+}
+
 .hero__search-btn {
   width: 56px;
   height: 56px;
@@ -85,6 +105,7 @@
 .hero__statistics-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   z-index: 10;
 }
