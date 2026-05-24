@@ -58,7 +58,12 @@
             <span class="accent"
               >Favourite
 
-              <svg width="278px" height="20px" class="hero__favorite-figure">
+              <svg
+                width="278"
+                height="20"
+                class="hero__favorite-figure"
+                aria-hidden="true"
+              >
                 <use xlink:href="./images/icons.svg#icon-Vector-5"></use>
               </svg>
             </span>
@@ -71,67 +76,90 @@
           </p>
           <div class="hero__location-block">
             <div class="hero__location-doctor">
-              <svg width="16px" height="16px">
+              <svg width="16" height="16" aria-hidden="true">
                 <use xlink:href="./images/icons.svg#icon-user"></use>
               </svg>
               <p class="hero__location-doctor-name">Doctor&rsquo;s Name</p>
-              <svg width="8px" height="8px" class="hero__dropdon-icon">
-                <use xlink:href="./images/icons.svg#icon-dropdown"></use>
-              </svg>
+              <button
+                class="hero__drop-down-btn"
+                type="button"
+                aria-label="Open dropdown"
+              >
+                <svg width="8" height="8" class="hero__dropdon-icon">
+                  <use xlink:href="./images/icons.svg#icon-dropdown"></use>
+                </svg>
+              </button>
             </div>
             <div class="hero__location">
-              <svg width="16px" height="16px">
+              <svg width="16" height="16" aria-hidden="true">
                 <use xlink:href="./images/icons.svg#icon-location"></use>
               </svg>
               <p class="hero__location-name">Location</p>
-              <svg width="8px" height="8px" class="hero__dropdon-icon">
-                <use xlink:href="./images/icons.svg#icon-dropdown"></use>
-              </svg>
+              <button
+                class="hero__drop-down-btn"
+                type="button"
+                aria-label="Open dropdown"
+              >
+                <svg width="8" height="8" class="hero__dropdon-icon">
+                  <use xlink:href="./images/icons.svg#icon-dropdown"></use>
+                </svg>
+              </button>
             </div>
-            <button type="button" class="hero__search-btn">
-              <svg width="16px" height="16px">
+            <button
+              type="button"
+              class="hero__search-btn"
+              aria-label="Search doctor"
+            >
+              <svg width="16" height="16">
                 <use xlink:href="./images/icons.svg#icon-search"></use>
               </svg>
             </button>
           </div>
         </div>
 
-        <svg class="hero__figure" width="800px" height="380px">
+        <svg class="hero__figure" width="800" height="380" aria-hidden="true">
           <use xlink:href="./images/icons.svg#icon-ellipse"></use>
         </svg>
       </section>
 
-      <div class="hero__statistic">
+      <section class="statistic">
         <div class="container">
-          <div class="hero__statistics-block">
-            <p class="hero__statistic-value">24/7</p>
-            <p class="hero__statistic-desription">Online Support</p>
+          <h2 class="statistic__title visually-hidden">Statistic</h2>
+          <div class="statistics__block">
+            <p class="statistic__value">24/7</p>
+            <p class="statistic__desription">Online Support</p>
           </div>
-          <div class="hero__statistics-block">
-            <p class="hero__statistic-value">100+</p>
-            <p class="hero__statistic-desription">Doctors</p>
+          <div class="statistics__block">
+            <p class="statistic__value">100+</p>
+            <p class="statistic__desription">Doctors</p>
           </div>
-          <div class="hero__statistics-block">
-            <p class="hero__statistic-value">1M+</p>
-            <p class="hero__statistic-desription">Active Patients</p>
+          <div class="statistics__block">
+            <p class="statistic__value">1M+</p>
+            <p class="statistic__desription">Active Patients</p>
           </div>
         </div>
 
         <img
-          class="hero__splash-image"
+          class="statistic__splash-image"
           src="./images/doctor.png"
           alt="doctor"
           width="526"
           height="735"
         >
-      </div>
+      </section>
+
       <section id="specialist" class="specialist">
         <div class="container">
           <h2 class="specialist__title">Our Consulting Specialists</h2>
           <ul class="specialist__list">
             <li class="specialist__item">
               <div class="specialist__icon-container">
-                <svg class="specialist__icon" width="45" height="45">
+                <svg
+                  class="specialist__icon"
+                  width="45"
+                  height="45"
+                  aria-hidden="true"
+                >
                   <use xlink:href="./images/icons.svg#icon-virus"></use>
                 </svg>
               </div>
@@ -145,7 +173,12 @@
             </li>
             <li class="specialist__item">
               <div class="specialist__icon-container">
-                <svg class="specialist__icon" width="45" height="45">
+                <svg
+                  class="specialist__icon"
+                  width="45"
+                  height="45"
+                  aria-hidden="true"
+                >
                   <use xlink:href="./images/icons.svg#icon-lungs"></use>
                 </svg>
               </div>
@@ -159,7 +192,12 @@
             </li>
             <li class="specialist__item">
               <div class="specialist__icon-container">
-                <svg class="specialist__icon" width="45" height="45">
+                <svg
+                  class="specialist__icon"
+                  width="45"
+                  height="45"
+                  aria-hidden="true"
+                >
                   <use xlink:href="./images/icons.svg#icon-suppliment"></use>
                 </svg>
               </div>
@@ -173,7 +211,12 @@
             </li>
             <li class="specialist__item">
               <div class="specialist__icon-container">
-                <svg class="specialist__icon" width="45" height="45">
+                <svg
+                  class="specialist__icon"
+                  width="45"
+                  height="45"
+                  aria-hidden="true"
+                >
                   <use xlink:href="./images/icons.svg#icon-mental-health"></use>
                 </svg>
               </div>
@@ -202,31 +245,31 @@
             <h2 class="advantages__title">Why You Choose Us?</h2>
             <ul class="advantages__list">
               <li class="advantages__item">
-                <svg width="16" height="16">
+                <svg width="16" height="16" aria-hidden="true">
                   <use xlink:href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li class="advantages__item">
-                <svg width="16" height="16">
+                <svg width="16" height="16" aria-hidden="true">
                   <use xlink:href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li class="advantages__item">
-                <svg width="16" height="16">
+                <svg width="16" height="16" aria-hidden="true">
                   <use xlink:href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li class="advantages__item">
-                <svg width="16" height="16">
+                <svg width="16" height="16" aria-hidden="true">
                   <use xlink:href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li class="advantages__item">
-                <svg width="16" height="16">
+                <svg width="16" height="16" aria-hidden="true">
                   <use xlink:href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -234,7 +277,7 @@
             </ul>
             <a href="#" class="advantages__more-link">
               Learn More
-              <svg width="12" height="12">
+              <svg width="12" height="12" aria-hidden="true">
                 <use xlink:href="./images/icons.svg#icon-right-arrow"></use>
               </svg>
             </a>
@@ -254,28 +297,24 @@
               viverra amet faucibus.
             </p>
             <div class="reviews__users">
-              <ul class="riviews__users-logos">
-                <li class="riviews__users-logo">
-                  <img
-                    class="riviews__users-logo"
-                    src="./images/user-logo-1.png"
-                    alt="user-logo-1"
-                  >
+              <ul class="reviews__users-logos">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-1.png" alt="User avatar">
                 </li>
-                <li class="riviews__users-logo">
-                  <img src="./images/user-logo-2.png" alt="user-logo-2">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-2.png" alt="User avatar">
                 </li>
-                <li class="riviews__users-logo">
-                  <img src="./images/user-logo-3.png" alt="user-logo-3">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-3.png" alt="User avatar">
                 </li>
-                <li class="riviews__users-logo">
-                  <img src="./images/user-logo-4.png" alt="user-logo-4">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-4.png" alt="User avatar">
                 </li>
-                <li class="riviews__users-logo">
-                  <img src="./images/user-logo-5.png" alt="user-logo-5">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-5.png" alt="User avatar">
                 </li>
-                <li class="riviews__users-logo">
-                  <img src="./images/user-logo-6.png" alt="user-logo-6">
+                <li class="reviews__users-logo">
+                  <img src="./images/user-logo-6.png" alt="User avatar">
                 </li>
               </ul>
               <p class="reviews__counter">100+ Reviews</p>
@@ -292,23 +331,23 @@
                   class="review-container__user-logo"
                 >
                 <div class="review-container__user">
-                  <p class="review-container__user-name">Jane Cooper</p>
+                  <h3 class="review-container__user-name">Jane Cooper</h3>
                   <p class="review-container__review-date">12/4/17</p>
                 </div>
                 <div class="review-container__rating">
-                  <svg width="40" height="40">
+                  <svg width="40" height="40" aria-hidden="true">
                     <use xlink:href="./images/icons.svg#icon-star"></use>
                   </svg>
-                  <svg width="40" height="40">
+                  <svg width="40" height="40" aria-hidden="true">
                     <use xlink:href="./images/icons.svg#icon-star"></use>
                   </svg>
-                  <svg width="40" height="40">
+                  <svg width="40" height="40" aria-hidden="true">
                     <use xlink:href="./images/icons.svg#icon-star"></use>
                   </svg>
-                  <svg width="40" height="40">
+                  <svg width="40" height="40" aria-hidden="true">
                     <use xlink:href="./images/icons.svg#icon-star"></use>
                   </svg>
-                  <svg width="40" height="40">
+                  <svg width="40" height="40" aria-hidden="true">
                     <use xlink:href="./images/icons.svg#icon-star"></use>
                   </svg>
                 </div>
@@ -353,7 +392,7 @@
 
             <a href="#" class="about__more-link">
               Learn More
-              <svg width="12" height="12">
+              <svg width="12" height="12" aria-hidden="true">
                 <use xlink:href="./images/icons.svg#icon-right-arrow"></use>
               </svg>
             </a>
@@ -371,6 +410,9 @@
         <div class="container">
           <h2 class="subscribe__title">Subscribe To Our Newsletter</h2>
           <form class="email-input__wraper" action="#">
+            <label for="email-input" class="visually-hidden"
+              >Enter your email</label
+            >
             <input
               type="email"
               name="email"
@@ -379,7 +421,7 @@
               placeholder="enter email"
             >
             <button type="submit" class="subscribe__submit-btn">
-              <svg width="12" height="12">
+              <svg width="12" height="12" aria-hidden="true">
                 <use xlink:href="./images/icons.svg#icon-right-arrow"></use>
               </svg>
             </button>
@@ -408,21 +450,21 @@
           <div class="footer__social-block">
             <ul class="footer__social-list">
               <li class="footer__social-link">
-                <a href="#">
+                <a href="#" aria-label="Facebook">
                   <svg width="16" height="16">
                     <use xlink:href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer__social-link">
-                <a href="#">
+                <a href="#" aria-label="Instagram">
                   <svg width="16" height="16">
                     <use xlink:href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer__social-link">
-                <a href="#">
+                <a href="#" aria-label="Twitter">
                   <svg width="16" height="16">
                     <use xlink:href="./images/icons.svg#icon-twiter"></use>
                   </svg>
@@ -432,18 +474,18 @@
           </div>
         </div>
         <nav class="footer__links-block">
-          <div class="footer__links-block-title">Useful Links</div>
+          <h3 class="footer__links-block-title">Useful Links</h3>
           <ul class="footer__links-list">
-            <li class="footer__liks-item">
+            <li class="footer__links-item">
               <a href="#" class="footer__link">About Us</a>
             </li>
-            <li class="footer__liks-item">
+            <li class="footer__links-item">
               <a href="#" class="footer__link">Privacy Policy</a>
             </li>
-            <li class="footer__liks-item">
+            <li class="footer__links-item">
               <a href="#" class="footer__link">Our Mission</a>
             </li>
-            <li class="footer__liks-item">
+            <li class="footer__links-item">
               <a href="#" class="footer__link">Our Team</a>
             </li>
           </ul>

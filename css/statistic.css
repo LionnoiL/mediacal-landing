@@ -1,0 +1,52 @@
+.statistic {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+  background-color: #0360d9;
+  position: relative;
+}
+
+.statistic .container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 90px;
+  width: 100%;
+  padding: 14px 0;
+}
+
+.statistics__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.statistics__block::after {
+  content: '';
+  background-color: #fff;
+  border-radius: 1px;
+  width: 2px;
+  height: 98%;
+  position: absolute;
+  bottom: 0;
+  right: -45px;
+  margin-top: 7px;
+}
+
+.statistic__value {
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+}
+
+.statistic__desription {
+  color: #fff;
+}
+
+.statistic__splash-image {
+  position: absolute;
+  display: block;
+  right: 100px;
+  bottom: 0;
+}

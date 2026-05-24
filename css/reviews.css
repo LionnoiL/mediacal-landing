@@ -39,12 +39,12 @@
   margin-top: 12px;
 }
 
-.riviews__users-logos {
+.reviews__users-logos {
   display: flex;
   position: relative;
 }
 
-.riviews__users-logo:not(:first-child) {
+.reviews__users-logo:not(:first-child) {
   margin-left: -20px;
 }
 
