@@ -73,6 +73,7 @@
   stroke: #000;
   stroke-linecap: round;
   fill: none;
+  cursor: pointer;
 }
 
 .hero__search-btn {
