@@ -66,6 +66,7 @@
 .specialist__item-description {
   color: #163048;
   margin-top: 9px;
+  line-height: 1.5;
 }
 
 .specialist__item:nth-child(2) .specialist__item-description {
